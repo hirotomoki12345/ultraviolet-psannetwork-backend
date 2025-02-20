@@ -79,7 +79,7 @@ function shutdown() {
 
 let port = parseInt(process.env.PORT || "");
 
-if (isNaN(port)) port = 8080;
+if (isNaN(port)) port = 9112;
 
 fastify.listen({
 	port: port,
